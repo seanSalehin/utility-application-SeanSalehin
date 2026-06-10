@@ -112,6 +112,34 @@ npm test
 * Loading state while searching.
 
 
+
+8. API Example
+
+---
+
+Example search:
+
+```txt
+http://localhost:3000/api/tickets/search?bbox=-80.00,43.20,-79.70,43.40
+```
+
+Example with filter:
+
+```txt
+http://localhost:3000/api/tickets/search?bbox=-80.00,43.20,-79.70,43.40&status=PRE_COMPLETED
+```
+
+
+9. GIS Notes
+
+---
+
+* Tickets are saved as PostGIS points.
+* Longitude comes first, then latitude.
+* The bbox is used as the map search area.
+* PostGIS checks which tickets are inside that area.
+
+
 8. Tools Used
 
 ---
