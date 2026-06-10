@@ -3,28 +3,6 @@ Utility Application - Sean Salehin
 A full-stack web application for searching utility tickets by area and filters.
 It uses React, NestJS, PostgreSQL, PostGIS, Docker, and Leaflet.
 
-Table of Contents
-
----
-
-## 1. How to Setup and Requirements
-
-## 2. How to Use the App
-
-## 3. Screenshot
-
-## 4. How to Run Tests
-
-## 5. What Was Tested
-
-## 6. Assumptions
-
-## 7. Edge Cases Handled
-
-## 8. Tools Used
-
-## 9. Contact Me
-
 
 1. How to Setup and Requirements
 
