@@ -182,7 +182,7 @@ function App() {
                 <td>{ticket.ticketNo}</td>
                 <td>{cleanText(ticket.status)}</td>
                 <td>{cleanText(ticket.priority)}</td>
-                <td>{cleanText(ticket.utilityType)}</td>
+                <td>{ticket.stationCode}</td>
                 <td>{ticket.utilityType}</td>
                 <td>{ticket.longitude.toFixed(4)}</td>
                 <td>{ticket.latitude.toFixed(4)}</td>
