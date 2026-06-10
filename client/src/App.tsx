@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { searchTickets } from './api';
 import type { Ticket, TicketResponse } from './types';
+import { TicketMap } from './TicketMap';
 import './App.css';
 
 const statusOptions = [
@@ -151,6 +152,8 @@ function App() {
               ))}
           </div>
         </div>
+
+        <TicketMap tickets={tickets} onBboxChange={setBbox} />
 
         <table>
           <thead>

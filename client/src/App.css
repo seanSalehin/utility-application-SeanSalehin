@@ -110,6 +110,27 @@ button:disabled {
   font-size: 13px;
 }
 
+
+.map-section {
+  margin-bottom: 22px;
+}
+
+.map-section h2 {
+  margin: 0 0 4px;
+  color: #183a37;
+}
+
+.map-section p {
+  margin: 0 0 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.map-box {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
