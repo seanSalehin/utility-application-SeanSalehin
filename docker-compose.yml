@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: utility_application
+    environment:
+      POSTGRES_DB: utility_app
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./database/data.sql:/docker-entrypoint-initdb.d/init.sql
+      - utility_data:/var/lib/postgresql/data
+
+volumes:
+  utility_data:
