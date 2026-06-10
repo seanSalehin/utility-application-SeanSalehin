@@ -55,7 +55,7 @@ C) Using the Frontend Client
 ---
 
 <p align="center">
-  <img src="https://i.ibb.co/LXnXDX3P/Screenshot-2026-06-10-110454.jpg" alt="Utility Application" width="850">
+  <img src="https://i.ibb.co/7tZ5LYTd/Final-app.jpg" alt="Utility Application" width="850">
 </p>
 
 
