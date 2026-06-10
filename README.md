@@ -3,6 +3,29 @@ Utility Application - Sean Salehin
 A full-stack web application for searching utility tickets by area and filters.
 It uses React, NestJS, PostgreSQL, PostGIS, Docker, and Leaflet.
 
+Table of Contents
+
+---
+
+## 1. How to Setup and Requirements
+
+## 2. How to Use the App
+
+## 3. Screenshot
+
+## 4. How to Run Tests
+
+## 5. What Was Tested
+
+## 6. Assumptions
+
+## 7. Edge Cases Handled
+
+## 8. Tools Used
+
+## 9. Contact Me
+
+
 1. How to Setup and Requirements
 
 ---
@@ -34,6 +57,7 @@ C) Using the Frontend Client
 * Run npm run dev.
 * The frontend will run on http://localhost:5173.
 
+
 2. How to Use the App
 
 ---
@@ -47,6 +71,7 @@ C) Using the Frontend Client
 * Ticket locations will also show on the map.
 * Moving the map updates the bbox input.
 
+
 3. Screenshot
 
 ---
@@ -55,12 +80,18 @@ C) Using the Frontend Client
   <img src="https://i.ibb.co/LXnXDX3P/Screenshot-2026-06-10-110454.jpg" alt="Utility Application" width="850">
 </p>
 
+
 4. How to Run Tests
 
 ---
 
+Open the `server` folder and run:
+
+```bash
 cd server
 npm test
+```
+
 
 
 5. What Was Tested
@@ -77,6 +108,7 @@ npm test
 * Map markers.
 * Bbox update from moving the map.
 
+
 6. Assumptions
 
 ---
@@ -87,6 +119,7 @@ npm test
 * SRID 4326 is used.
 * The backend handles the main filtering.
 * The frontend only sends the search values and shows the results.
+
 
 7. Edge Cases Handled
 
@@ -100,6 +133,7 @@ npm test
 * API error.
 * Loading state while searching.
 
+
 8. Tools Used
 
 ---
@@ -112,9 +146,11 @@ npm test
 * Docker
 * Leaflet
 
+
 9. Contact Me
 
 ---
+
 
 [sean.salehin@gmail.com](mailto:sean.salehin@gmail.com)
 
